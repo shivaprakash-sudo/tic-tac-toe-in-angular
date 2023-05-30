@@ -1,23 +1,29 @@
 {
-  "hosting": [
-    {
-      "public": "dist",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
+    "hosting": [
         {
-          "source": "**",
-          "destination": "/index.html"
+            "public": "dist",
+            "ignore": [
+                "firebase.json",
+                "**/.*",
+                "**/node_modules/**"
+            ],
+            "rewrites": [
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
+        },
+        {
+            "target": {
+                "default": {
+                    "hosting": {
+                        "site": "tic-tac-toe"
+                    }
+                }
+            },
+            "source": ".",
+            "frameworksBackend": {}
         }
-      ]
-    },
-    {
-      "target": "tic-tac-toe-game",
-      "source": ".",
-      "frameworksBackend": {}
-    }
-  ]
+    ]
 }
