@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "tic-tac-toe-faffa"
+  },
+  "targets": {
+    "tic-tac-toe-faffa": {
+      "hosting": {
+        "tic-tac-toe-game": [
+          "tic-tac-toe-faffa"
+        ]
+      }
+    }
+  }
+}
