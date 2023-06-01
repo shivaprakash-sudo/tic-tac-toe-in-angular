@@ -1,14 +1,8 @@
 {
   "projects": {
-    "default": "tic-tac-toe-faffa"
+    "default": "tictactoe-4ac05",
+    "staging": "tictactoe-4ac05"
   },
-  "targets": {
-    "tic-tac-toe-faffa": {
-      "hosting": {
-        "tic-tac-toe-game": [
-          "tic-tac-toe-faffa"
-        ]
-      }
-    }
-  }
+  "targets": {},
+  "etags": {}
 }

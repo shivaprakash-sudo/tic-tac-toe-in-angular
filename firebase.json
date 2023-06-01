@@ -1,25 +1,13 @@
 {
     "hosting": {
-        "public": "dist",
+        "public": "dist/tic-tac-toe-game",
         "ignore": [
             "firebase.json",
             "**/.*",
             "**/node_modules/**"
         ],
-        "rewrites": [
-            {
-                "source": "**",
-                "destination": "/index.html"
-            }
-        ],
-        "target": {
-            "default": {
-                "hosting": {
-                    "site": "tic-tac-toe"
-                }
-            }
-        },
-        "source": ".",
-        "frameworksBackend": {}
+        "frameworksBackend": {
+            "region": "europe-west1"
+        }
     }
 }
